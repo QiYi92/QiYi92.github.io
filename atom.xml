@@ -95,9 +95,9 @@
     <category term="教程" scheme="https://www.galileocat.cn/categories/%E6%95%99%E7%A8%8B/"/>
     
     
-    <category term="hexo" scheme="https://www.galileocat.cn/tags/hexo/"/>
-    
     <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="hexo" scheme="https://www.galileocat.cn/tags/hexo/"/>
     
     <category term="git" scheme="https://www.galileocat.cn/tags/git/"/>
     
@@ -156,9 +156,9 @@
     
     <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
-    <category term="debug" scheme="https://www.galileocat.cn/tags/debug/"/>
-    
     <category term="linux" scheme="https://www.galileocat.cn/tags/linux/"/>
+    
+    <category term="debug" scheme="https://www.galileocat.cn/tags/debug/"/>
     
   </entry>
   
@@ -184,11 +184,11 @@
     <category term="hexo" scheme="https://www.galileocat.cn/categories/hexo/"/>
     
     
-    <category term="hexo" scheme="https://www.galileocat.cn/tags/hexo/"/>
-    
     <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
     
     <category term="debug" scheme="https://www.galileocat.cn/tags/debug/"/>
+    
+    <category term="hexo" scheme="https://www.galileocat.cn/tags/hexo/"/>
     
   </entry>
   
