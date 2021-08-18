@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://www.galileocat.cn/sync2/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/sync1/</loc>
+    
+    <lastmod>2021-08-17</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/hexo0/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/hexo1/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao3/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/course1/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/qingniandaxuexi/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao8/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao7/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao6/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao5/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao4/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao2/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/lanqiao1/</loc>
+    
+    <lastmod>2021-08-08</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/friends/index.html</loc>
+    
+    <lastmod>2021-08-06</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/404/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/contact/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/about/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/categories/index.html</loc>
+    
+    <lastmod>2021-08-02</lastmod>
+    
+  </url>
+  
+
+  <url>
+    <loc>https://www.galileocat.cn/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/hexo/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/debug/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/linux/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/git/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/Python/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/%E7%88%AC%E8%99%AB/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/tags/%E5%BE%AE%E5%8A%9B%E5%90%8C%E6%AD%A5/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://www.galileocat.cn/categories/hexo/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/categories/%E6%95%99%E7%A8%8B/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.galileocat.cn/categories/Python/</loc>
+    <lastmod>2021-08-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>

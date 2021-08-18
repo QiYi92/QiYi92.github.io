@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>二进制的伽利略&#39;s Blog</title>
+  
+  <subtitle>黑风海底的亚马乌罗提</subtitle>
+  <link href="https://www.galileocat.cn/atom.xml" rel="self"/>
+  
+  <link href="https://www.galileocat.cn/"/>
+  <updated>2021-08-17T13:47:45.649Z</updated>
+  <id>https://www.galileocat.cn/</id>
+  
+  <author>
+    <name>GalileoCat</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用微力同步进行多端同步开发</title>
+    <link href="https://www.galileocat.cn/sync2/"/>
+    <id>https://www.galileocat.cn/sync2/</id>
+    <published>2021-08-17T13:48:30.953Z</published>
+    <updated>2021-08-17T13:47:45.649Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;我一般做项目都是用我的主力机进行开发（主要还是3080+3700x比较香），但也有迫不得已使用笔记本进行工作的时候&lt;/p&gt;
+&lt;p&gt;这时候如果对已有项目进行修改，就非常麻烦，要从主力机或者github上下载项目，开发告一段落还要主动上传和更新。。。&lt;/p&gt;
+&lt;p&gt;这两天快要过</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="微力同步" scheme="https://www.galileocat.cn/tags/%E5%BE%AE%E5%8A%9B%E5%90%8C%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>修复airdisk上微力同步功能拒绝访问的问题</title>
+    <link href="https://www.galileocat.cn/sync1/"/>
+    <id>https://www.galileocat.cn/sync1/</id>
+    <published>2021-08-17T13:48:30.951Z</published>
+    <updated>2021-08-17T13:20:59.232Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;记录一下解决airdisk Q3X NAS服务器的微力同步功能拒绝请求的问题&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="debug" scheme="https://www.galileocat.cn/tags/debug/"/>
+    
+    <category term="微力同步" scheme="https://www.galileocat.cn/tags/%E5%BE%AE%E5%8A%9B%E5%90%8C%E6%AD%A5/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【浅谈】基于github托管，利用hexo+picgo+gitnote构筑一套带图床的完整个人博客生态</title>
+    <link href="https://www.galileocat.cn/hexo1/"/>
+    <id>https://www.galileocat.cn/hexo1/</id>
+    <published>2021-08-08T11:39:40.796Z</published>
+    <updated>2021-08-08T15:21:36.852Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h1&gt;&lt;p&gt;先展示一下部署在github上的hexo博客界面&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="hexo" scheme="https://www.galileocat.cn/tags/hexo/"/>
+    
+    <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="git" scheme="https://www.galileocat.cn/tags/git/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>青年大学习完成截图爬虫</title>
+    <link href="https://www.galileocat.cn/qingniandaxuexi/"/>
+    <id>https://www.galileocat.cn/qingniandaxuexi/</id>
+    <published>2021-08-07T13:02:27.249Z</published>
+    <updated>2021-08-08T11:59:13.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;青年大学习截图爬虫脚本&lt;/p&gt;
+&lt;p&gt;1.自动爬取青年大学习完成截图&lt;/p&gt;
+&lt;p&gt;2.该脚本无法对微信记录进行修改，只能生成最新期的截图&lt;/p&gt;
+&lt;p&gt;3.直接下载.exe文件运行即可，脚本会在同目录下生成截图.jpg文件&lt;br&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Python" scheme="https://www.galileocat.cn/categories/Python/"/>
+    
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+    <category term="爬虫" scheme="https://www.galileocat.cn/tags/%E7%88%AC%E8%99%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【教程】在VMware基于linux ubuntu虚拟机安装ucore</title>
+    <link href="https://www.galileocat.cn/course1/"/>
+    <id>https://www.galileocat.cn/course1/</id>
+    <published>2021-08-07T13:02:27.230Z</published>
+    <updated>2021-08-08T11:59:22.145Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/categories/%E6%95%99%E7%A8%8B/"/>
+    
+    
+    <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="debug" scheme="https://www.galileocat.cn/tags/debug/"/>
+    
+    <category term="linux" scheme="https://www.galileocat.cn/tags/linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo matery奇怪BUG报错排雷总结</title>
+    <link href="https://www.galileocat.cn/hexo0/"/>
+    <id>https://www.galileocat.cn/hexo0/</id>
+    <published>2021-08-07T10:10:04.779Z</published>
+    <updated>2021-08-08T15:59:22.422Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;ul&gt;
+&lt;li&gt;&lt;h2 id=&quot;hexo-d向github部署博客后-ERROR-Deployer-not-found-git&quot;&gt;&lt;a href=&quot;#hexo-d向github部署博客后-ERROR-Deployer-not-found-git&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="hexo" scheme="https://www.galileocat.cn/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://www.galileocat.cn/tags/hexo/"/>
+    
+    <category term="教程" scheme="https://www.galileocat.cn/tags/%E6%95%99%E7%A8%8B/"/>
+    
+    <category term="debug" scheme="https://www.galileocat.cn/tags/debug/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【提高】用筛法求之N内的素数</title>
+    <link href="https://www.galileocat.cn/lanqiao8/"/>
+    <id>https://www.galileocat.cn/lanqiao8/</id>
+    <published>2021-08-06T18:19:20.054Z</published>
+    <updated>2021-08-08T11:59:09.429Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1084: 用筛法求之N内的素数。&lt;br&gt;时间限制: 1Sec 内存限制: 64MB 提交: 14733 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【提高】芯片检测</title>
+    <link href="https://www.galileocat.cn/lanqiao7/"/>
+    <id>https://www.galileocat.cn/lanqiao7/</id>
+    <published>2021-08-06T18:19:20.052Z</published>
+    <updated>2021-08-08T11:59:04.547Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1473: [蓝桥杯][基础练习VIP]芯片测试&lt;br&gt;时间限制: 1Sec 内存限制: 128MB 提交: 1270 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【提高】sine之舞</title>
+    <link href="https://www.galileocat.cn/lanqiao6/"/>
+    <id>https://www.galileocat.cn/lanqiao6/</id>
+    <published>2021-08-06T18:09:31.952Z</published>
+    <updated>2021-08-08T11:58:56.181Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1463: [蓝桥杯][基础练习VIP]Sine之舞&lt;br&gt;时间限制: 1Sec 内存限制: 128MB 提交: 1912 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【提高】2n皇后问题</title>
+    <link href="https://www.galileocat.cn/lanqiao4/"/>
+    <id>https://www.galileocat.cn/lanqiao4/</id>
+    <published>2021-08-06T17:57:45.628Z</published>
+    <updated>2021-08-08T11:58:44.181Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1460: [蓝桥杯][基础练习VIP]2n皇后问题&lt;br&gt;时间限制: 1Sec 内存限制: 128MB 提交: 1353 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【基础】杨辉三角</title>
+    <link href="https://www.galileocat.cn/lanqiao3/"/>
+    <id>https://www.galileocat.cn/lanqiao3/</id>
+    <published>2021-08-06T17:57:45.626Z</published>
+    <updated>2021-08-08T12:03:24.943Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1231: 杨辉三角&lt;/p&gt;
+&lt;p&gt;时间限制: 1Sec 内存限制: 128MB 提交: 2261 解决: 750&lt;br&gt;题目描述&lt;/p&gt;
+&lt;p&gt;还记得中学时候学过的杨辉三角吗？具体的定义这里不再描述，你可以参考以下的图形：&lt;br&gt;1&lt;br&gt;1 1&lt;br&gt;1 2</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【提高】回形取数</title>
+    <link href="https://www.galileocat.cn/lanqiao5/"/>
+    <id>https://www.galileocat.cn/lanqiao5/</id>
+    <published>2021-08-06T17:57:45.621Z</published>
+    <updated>2021-08-08T11:58:52.131Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1465: [蓝桥杯][基础练习VIP]回形取数&lt;br&gt;时间限制: 1Sec 内存限制: 128MB 提交: 2313 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【基础】数列排序</title>
+    <link href="https://www.galileocat.cn/lanqiao2/"/>
+    <id>https://www.galileocat.cn/lanqiao2/</id>
+    <published>2021-08-06T17:36:11.426Z</published>
+    <updated>2021-08-08T11:58:29.780Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1853: [蓝桥杯][基础练习]数列排序&lt;br&gt;时间限制: 1Sec 内存限制: 128MB 提交: 1174 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【入门】斐波那契数列</title>
+    <link href="https://www.galileocat.cn/lanqiao1/"/>
+    <id>https://www.galileocat.cn/lanqiao1/</id>
+    <published>2021-08-06T17:22:19.230Z</published>
+    <updated>2021-08-08T11:58:19.806Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;题目 1854: [蓝桥杯][入门训练]Fibonacci数列&lt;br&gt;时间限制: 1Sec 内存限制: 128MB 提交: 936 解决:</summary>
+        
+      
+    
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/categories/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    
+    <category term="蓝桥杯" scheme="https://www.galileocat.cn/tags/%E8%93%9D%E6%A1%A5%E6%9D%AF/"/>
+    
+    <category term="Python" scheme="https://www.galileocat.cn/tags/Python/"/>
+    
+  </entry>
+  
+</feed>
