@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>【教程】Hexo博客镜像双部署(github和coding)</title>
+      <link href="/hexo2/"/>
+      <url>/hexo2/</url>
+      
+        <content type="html"><![CDATA[<h1 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h1><p>博客部署在github上时，很多人反映访问博客时速度很慢，或者直接是打不开。Github的服务器在国外，所以国内访问会比较慢，这里我选者在国内coding部署一个镜像，通过域名解析的方式对访问者进行分流</p><h2 id="coding和gitee"><a href="#coding和gitee" class="headerlink" title="coding和gitee"></a>coding和gitee</h2><p>国内有两个托管平台<strong>coding</strong>和<strong>gitee</strong><br>gitee如果要使用自定义域名解析的话需要购买gitee pages pro服务<br>需要99rmb/年，本来说做镜像站不考虑经济因素的话推荐gitee,它的访问速度是要优于coding。<br>但遗憾是gitee最近停止了对个人用户出售gitee pages pro<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110151816799.png"><br>所以我们目前的选择只有coding了</p><h1 id="coding部署"><a href="#coding部署" class="headerlink" title="coding部署"></a>coding部署</h1><h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>注册Coding平台<br><a href="https://coding.net/">传送门</a></p><h2 id="用Git绑定Coding文件"><a href="#用Git绑定Coding文件" class="headerlink" title="用Git绑定Coding文件"></a>用Git绑定Coding文件</h2><p>首先需要提前对Git进行用户名和密码的配置<br>这一步在前面部署’github pages’一般都已经完成了,没有完成的可以搜索一下其他教程</p><h2 id="SSH公钥绑定"><a href="#SSH公钥绑定" class="headerlink" title="SSH公钥绑定"></a>SSH公钥绑定</h2><p>接下来进入个人账户设置<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152021234.png"><br>绑定SSH公钥<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152035888.png"><br>SSH公钥的路径一般是<code>C:\Users\你的名字\.ssh</code><br>用记事本打开<code>id_rsa.pub</code>文件复制粘贴即可<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152039246.png"></p><p>完成设置后在博客根目录里打开git bash<br>输入</p><pre class="language-none"><code class="language-none">$ ssh -T git@e.coding.net</code></pre><p>出现这种情况就说明成功了<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152056687.png"></p><h2 id="创建项目"><a href="#创建项目" class="headerlink" title="创建项目"></a>创建项目</h2><p><strong>注意！！！项目名称一定要和你的coding名称一致</strong><br>不然构建部署有很大概率会出错<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152041735.png"><br>完成创建<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152042737.png"><br>接下来在项目里面创建仓库<br>仓库名字为<code>你的用户名.coding.me</code><br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152044273.png"></p><h2 id="hexo部署"><a href="#hexo部署" class="headerlink" title="hexo部署"></a>hexo部署</h2><p>这一步需要打开你博客文件夹的根目录打开<code>_conflg.yml</code><br>找到这一行<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152046606.png"><br>这里的repo是双部署的重点，一定要按照格式来写</p><pre class="language-none"><code class="language-none">deploy:- type: git  repo:     github: git@github.com:QiYi92/QiYi92.github.io.git,main    coding: git@e.coding.net:galileocat/galileocat/galileocat.coding.me.git,master</code></pre><p>如果不知道coding的ssh地址可以在<code>代码仓库</code>-<code>设置</code>-<code>基本设置</code>里找到<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152048210.png"><br>ssh地址后面是<code>分支名</code><br>这里github默认是<code>main</code><br>而gitee和coding默认是<code>master</code><br><strong>一定要设置正确，不然在push仓库的时候会报错</strong></p><p>设置完成后在你博客根目录里<code>hexo``hexo d</code>即可</p><h2 id="网站部署"><a href="#网站部署" class="headerlink" title="网站部署"></a>网站部署</h2><p><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152050202.png"><br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152051967.png"><br>一键部署即可<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152056609.png"><br>如果失败就检查前几步是否有问题</p><p>接下来将在你注册域名的平台，腾讯云，阿里云上把coding给你的地址添加到解析里就行了<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152058446.png"><br>我这里是腾讯云，这里把线路类型设置成<strong>境内</strong>，这样境内用户就会自动访问到coding，而境外就会访问github,前提是你在github上也设置了解析<br><img src="https://cdn.jsdelivr.net/gh/QiYi92/ImageHost/img/202110152100111.png"><br>完成！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 教程 </tag>
+            
+            <tag> hexo </tag>
+            
+            <tag> git </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用微力同步进行多端同步开发</title>
       <link href="/sync2/"/>
       <url>/sync2/</url>
